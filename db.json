@@ -1,0 +1,61 @@
+{
+    "book1": [
+      {
+        "id": 1,
+        "author": "Mark Manson",
+        "title": "The Subtle Art of Not Giving a F*ck",
+        "likes": 45,
+        "image": "./assets/Images/Book1.jpg",
+        "description": "Argues that individuals should seek to find meaning through what they find to be important and only engage in values that they can control."
+      }
+    ],
+    "book2":[
+        {
+        "id": 2,
+        "author": "Robert Greene",
+        "title": "The 48 Laws of Power",
+        "likes": 30,
+        "image": "./assets/Images/Book2.jpg",
+        "description": "How you can get it, what to do to defend yourself against the power of others and, most importantly, how to use it well and keep it."
+    }
+    ],
+    "book3":[
+        {
+        "id": 3,
+        "author": "James Clear",
+        "title": "Atomic Habits",
+        "likes": 25,
+        "image": "./assets/Images/Book3.jpg",
+        "description": "Guide to breaking bad behaviors and adopting good ones in four steps, showing you how small, incremental, everyday routines compound into massive, positive change over time."
+      }
+    ],
+    "review":[
+        {
+           "id":4,
+           "books1Id": 1,
+           "content":"Great choice!"
+        },
+        {
+            "id":5,
+            "books2Id": 1,
+            "content":"Awesome books for self-esteem boost!"
+        },
+        {
+            "id":6,
+            "books3Id": 1,
+            "content":"What a brilliant read!"
+        }    
+    ],
+    "users": [
+            {
+                "name": "Dot",
+                "email": "dot@dot.com",
+                "id": 1
+            },
+            {
+                "name": "Dola",
+                "email": "dola@dola.com",
+                "id": 100
+            }
+]
+}
